@@ -20,7 +20,7 @@ Explanation: "amanaplanacanalpanama" is a palindrome.
 public static boolean isPalindrome(String s) {
     s = s.toLowerCase();
     s = s.replaceAll("[^a-zA-Z0-9]", "");
-Ō// reverse string
+// reverse string
     String reversed = "";
     for (int i = s.length() - 1; i >= 0; i--) {
         reversed += s.charAt(i);
